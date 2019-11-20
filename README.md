@@ -5,8 +5,6 @@
 [![ScrutinizerCq](https://scrutinizer-ci.com/g/pierre-fromager/nymfonya-config/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pierre-fromager/nymfonya-config/)  
 
 
-![logo](assets/img/nymfonya-logo.png)
-
 ## ʕʘ̅͜ʘ̅ʔ Why
 
 A simple config manager for Nymfonya.
