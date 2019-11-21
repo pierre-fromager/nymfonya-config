@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Component;
+namespace Nymfonya\Component\Config\Tests;
 
 use PHPUnit\Framework\TestCase as PFT;
 use Nymfonya\Component\Config;
