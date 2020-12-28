@@ -50,10 +50,10 @@
     },
     "scripts": {
         "checklint": [
-            "phpcs -e --standard=PSR2 --warning-severity=10 --extensions=php src/* tests/*"
+            "phpcs -e --standard=PSR12 --warning-severity=10 --extensions=php src/* tests/*"
         ],
         "lint": [
-            "phpcbf --standard=PSR2 --warning-severity=10 --extensions=php src/* tests/*"
+            "phpcbf --standard=PSR12 --warning-severity=10 --extensions=php src/* tests/*"
         ],
         "cq": [
             "phploc -vvv --ansi src/*"
