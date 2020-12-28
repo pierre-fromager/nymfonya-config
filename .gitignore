@@ -1,5 +1,6 @@
 /vendor/
 /coverage/
+/build/
 .php_cs.cache
 .vscode
 coverage.clover

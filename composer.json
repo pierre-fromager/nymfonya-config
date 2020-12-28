@@ -19,14 +19,15 @@
     "prefer-stable": true,
     "type": "library",
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.3.10"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.5",
+        "phpunit/phpunit": "^7.5",
         "squizlabs/php_codesniffer": "*",
         "friendsofphp/php-cs-fixer": "^2.13",
-        "phploc/phploc": "^4.0",
-        "phpmd/phpmd": "@stable"
+        "phploc/phploc": "^5.0",
+        "phpmd/phpmd": "@stable",
+        "phan/phan": "3.x"
     },
     "autoload": {
         "psr-4": {
@@ -64,7 +65,10 @@
             "phpdbg -qrr ./vendor/bin/phpunit --coverage-html='./coverage'"
         ],
         "test": [
-            "phpunit --verbose --testsuite all"
+            "phpdbg -qrr ./vendor/bin/phpunit"
+        ],
+        "phan": [
+            "php ./vendor/bin/phan"
         ]
     }
 }
