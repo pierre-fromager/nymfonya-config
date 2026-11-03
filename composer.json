@@ -19,15 +19,13 @@
     "prefer-stable": true,
     "type": "library",
     "require": {
-        "php": ">=7.3.10"
+        "php": ">=8.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0",
+        "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*",
         "friendsofphp/php-cs-fixer": "^2.17",
-        "phploc/phploc": "^5.0",
         "phpmd/phpmd": "@stable",
-        "phan/phan": "3.x",
         "theseer/phpdox": "^0.12.0"
     },
     "autoload": {
@@ -70,9 +68,6 @@
         ],
         "doc": [
             "php ./vendor/bin/phpdox"
-        ],
-        "phan": [
-            "php ./vendor/bin/phan"
         ]
     }
 }
